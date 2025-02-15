@@ -11,7 +11,7 @@ console.log(cityIndex); // Output: 4 (l'indice parte da 0 quindi per avere un Ou
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = city.substring(4, 8); // Sostituisci la stringa con il codice
+const citySubstring = city.substring(cityIndex); // Sostituisci la stringa con il codice
 console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
